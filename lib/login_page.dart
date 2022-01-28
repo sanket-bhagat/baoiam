@@ -88,26 +88,23 @@ class _LoginPageState extends State<LoginPage> {
                               color: Colors.white,
                               fontSize: 16,
                             ),
-                            border: OutlineInputBorder(
+                            border: UnderlineInputBorder(
                               borderSide: BorderSide(
                                 width: 2,
                                 color: Colors.red,
                               ),
-                              borderRadius: BorderRadius.circular(20),
                             ),
-                            focusedBorder: OutlineInputBorder(
+                            focusedBorder: UnderlineInputBorder(
                               borderSide: BorderSide(
                                 width: 2,
                                 color: Colors.white,
                               ),
-                              borderRadius: BorderRadius.circular(20),
                             ),
-                            enabledBorder: OutlineInputBorder(
+                            enabledBorder: UnderlineInputBorder(
                               borderSide: BorderSide(
                                 width: 1,
                                 color: Colors.white,
                               ),
-                              borderRadius: BorderRadius.circular(20),
                             ),
                           ),
                         ),
@@ -149,26 +146,23 @@ class _LoginPageState extends State<LoginPage> {
                                 color: Colors.white,
                               ),
                             ),
-                            border: OutlineInputBorder(
+                            border: UnderlineInputBorder(
                               borderSide: BorderSide(
                                 width: 2,
                                 color: Colors.red,
                               ),
-                              borderRadius: BorderRadius.circular(20),
                             ),
-                            focusedBorder: OutlineInputBorder(
+                            focusedBorder: UnderlineInputBorder(
                               borderSide: BorderSide(
                                 width: 2,
                                 color: Colors.white,
                               ),
-                              borderRadius: BorderRadius.circular(20),
                             ),
-                            enabledBorder: OutlineInputBorder(
+                            enabledBorder: UnderlineInputBorder(
                               borderSide: BorderSide(
                                 width: 1,
                                 color: Colors.white,
                               ),
-                              borderRadius: BorderRadius.circular(20),
                             ),
                           ),
                         ),

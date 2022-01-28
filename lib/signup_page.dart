@@ -77,30 +77,26 @@ class _SignupPageState extends State<SignupPage> {
                             color: Colors.white,
                             fontSize: 16,
                           ),
-                          border: OutlineInputBorder(
-                            borderSide: BorderSide(
-                              width: 2,
-                              color: Colors.red,
-                            ),
-                            borderRadius: BorderRadius.circular(20),
-                          ),
-                          focusedBorder: OutlineInputBorder(
+                          border: UnderlineInputBorder(
                             borderSide: BorderSide(
                               width: 2,
                               color: Colors.white,
                             ),
-                            borderRadius: BorderRadius.circular(20),
                           ),
-                          enabledBorder: OutlineInputBorder(
+                          focusedBorder: UnderlineInputBorder(
+                            borderSide: BorderSide(
+                              width: 2,
+                              color: Colors.white,
+                            ),
+                          ),
+                          enabledBorder: UnderlineInputBorder(
                             borderSide: BorderSide(
                               width: 1,
                               color: Colors.white,
                             ),
-                            borderRadius: BorderRadius.circular(20),
                           ),
                         ),
                       ),
-                      SizedBox(height: 7),
                       TextFormField(
                         keyboardType: TextInputType.number,
                         style: TextStyle(
@@ -126,30 +122,26 @@ class _SignupPageState extends State<SignupPage> {
                             color: Colors.white,
                             fontSize: 16,
                           ),
-                          border: OutlineInputBorder(
-                            borderSide: BorderSide(
-                              width: 2,
-                              color: Colors.red,
-                            ),
-                            borderRadius: BorderRadius.circular(20),
-                          ),
-                          focusedBorder: OutlineInputBorder(
+                          border: UnderlineInputBorder(
                             borderSide: BorderSide(
                               width: 2,
                               color: Colors.white,
                             ),
-                            borderRadius: BorderRadius.circular(20),
                           ),
-                          enabledBorder: OutlineInputBorder(
+                          focusedBorder: UnderlineInputBorder(
+                            borderSide: BorderSide(
+                              width: 2,
+                              color: Colors.white,
+                            ),
+                          ),
+                          enabledBorder: UnderlineInputBorder(
                             borderSide: BorderSide(
                               width: 1,
                               color: Colors.white,
                             ),
-                            borderRadius: BorderRadius.circular(20),
                           ),
                         ),
                       ),
-                      SizedBox(height: 7),
                       TextFormField(
                         keyboardType: TextInputType.emailAddress,
                         style: TextStyle(
@@ -175,30 +167,26 @@ class _SignupPageState extends State<SignupPage> {
                             color: Colors.white,
                             fontSize: 16,
                           ),
-                          border: OutlineInputBorder(
-                            borderSide: BorderSide(
-                              width: 2,
-                              color: Colors.red,
-                            ),
-                            borderRadius: BorderRadius.circular(20),
-                          ),
-                          focusedBorder: OutlineInputBorder(
+                          border: UnderlineInputBorder(
                             borderSide: BorderSide(
                               width: 2,
                               color: Colors.white,
                             ),
-                            borderRadius: BorderRadius.circular(20),
                           ),
-                          enabledBorder: OutlineInputBorder(
+                          focusedBorder: UnderlineInputBorder(
+                            borderSide: BorderSide(
+                              width: 2,
+                              color: Colors.white,
+                            ),
+                          ),
+                          enabledBorder: UnderlineInputBorder(
                             borderSide: BorderSide(
                               width: 1,
                               color: Colors.white,
                             ),
-                            borderRadius: BorderRadius.circular(20),
                           ),
                         ),
                       ),
-                      SizedBox(height: 7),
                       TextFormField(
                         obscureText: obsecureText,
                         style: TextStyle(
@@ -238,30 +226,26 @@ class _SignupPageState extends State<SignupPage> {
                               color: Colors.white,
                             ),
                           ),
-                          border: OutlineInputBorder(
-                            borderSide: BorderSide(
-                              width: 2,
-                              color: Colors.red,
-                            ),
-                            borderRadius: BorderRadius.circular(20),
-                          ),
-                          focusedBorder: OutlineInputBorder(
+                          border: UnderlineInputBorder(
                             borderSide: BorderSide(
                               width: 2,
                               color: Colors.white,
                             ),
-                            borderRadius: BorderRadius.circular(20),
                           ),
-                          enabledBorder: OutlineInputBorder(
+                          focusedBorder: UnderlineInputBorder(
+                            borderSide: BorderSide(
+                              width: 2,
+                              color: Colors.white,
+                            ),
+                          ),
+                          enabledBorder: UnderlineInputBorder(
                             borderSide: BorderSide(
                               width: 1,
                               color: Colors.white,
                             ),
-                            borderRadius: BorderRadius.circular(20),
                           ),
                         ),
                       ),
-                      SizedBox(height: 7),
                       TextFormField(
                         obscureText: obsecureText,
                         style: TextStyle(
@@ -301,26 +285,23 @@ class _SignupPageState extends State<SignupPage> {
                               color: Colors.white,
                             ),
                           ),
-                          border: OutlineInputBorder(
-                            borderSide: BorderSide(
-                              width: 2,
-                              color: Colors.red,
-                            ),
-                            borderRadius: BorderRadius.circular(20),
-                          ),
-                          focusedBorder: OutlineInputBorder(
+                          border: UnderlineInputBorder(
                             borderSide: BorderSide(
                               width: 2,
                               color: Colors.white,
                             ),
-                            borderRadius: BorderRadius.circular(20),
                           ),
-                          enabledBorder: OutlineInputBorder(
+                          focusedBorder: UnderlineInputBorder(
+                            borderSide: BorderSide(
+                              width: 2,
+                              color: Colors.white,
+                            ),
+                          ),
+                          enabledBorder: UnderlineInputBorder(
                             borderSide: BorderSide(
                               width: 1,
                               color: Colors.white,
                             ),
-                            borderRadius: BorderRadius.circular(20),
                           ),
                         ),
                       ),
@@ -362,7 +343,7 @@ class _SignupPageState extends State<SignupPage> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      "Already Registered? ",
+                      "Already Registed? ",
                       style: TextStyle(
                         fontSize: 18,
                         color: Colors.white,
